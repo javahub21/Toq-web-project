@@ -1,0 +1,76 @@
+
+* {
+    box-sizing: border-box;
+    padding: 5px 10px 5px 10px;
+    margin: 0px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(ANUDRG__.ttf);
+     }
+ 
+ * {
+    font-family: myFirstFont;
+ }
+
+ body {
+    background-color: rgba(0, 1, 2, 0.979);
+    background-image:url('images/darth2.jpg');
+    background-repeat: no-repeat;
+    background-position: 0px 30px; 
+  }
+
+ h1 {
+     color:white;
+     margin: 30px 0px 0px 0px;
+ }
+
+ h3 {
+    color:white;
+    margin: 30px 0px 0px 0px;
+}
+
+ ul {
+    list-style-type: none;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: #333333;
+}
+             
+li {
+    float: left;
+    padding: 0px; 
+    margin: 0px;  
+
+}
+             
+li a {
+    display: block;
+    color: rgb(138,43,226);
+    text-align: center;
+    padding: 20px 40px 20px 40px;
+    text-decoration: none;
+}
+             
+li a:hover {
+    background-color: #111111;
+}
+
+li a.active {
+    background-color: rgb(119, 221, 119);
+    color: white;
+  }
+  
+li a:hover:not(.active) {
+    background-color: #111111;
+    color: white;
+  }
+
+p {
+    color: rgb(119, 221, 119);
+    margin: 15px 0px 0px 10px;
+    padding: 0px 85px 0px 0px;
+}
+  
